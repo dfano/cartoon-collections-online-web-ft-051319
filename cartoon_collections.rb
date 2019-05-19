@@ -1,6 +1,6 @@
 def roll_call_dwarves(arr)
   arr.each_with_index do |name,number|
-    puts "#{number}. *#{name.capitalize}"
+    puts "#{number}.*#{name.capitalize}"
   end
 end
 
